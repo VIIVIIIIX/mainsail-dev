@@ -5,7 +5,7 @@ import Console from '../pages/Console.vue'
 import Files from '../pages/Files.vue'
 import History from '../pages/History.vue'
 import Timelapse from '../pages/Timelapse.vue'
-import Machine from '../pages/Machine.vue'
+// import Machine from '../pages/Machine.vue'
 import { AsyncComponent, Component } from 'vue'
 
 import {
@@ -117,7 +117,7 @@ const routes: AppRoute[] = [
         moonrakerComponent: 'timelapse',
         position: 80,
     },
-    {
+    /*{
         name: 'machine',
         title: 'Machine',
         path: '/config',
@@ -126,7 +126,7 @@ const routes: AppRoute[] = [
         alwaysShow: true,
         showInNavi: true,
         position: 90,
-    },
+    },*/
     {
         title: null,
         component: null,
